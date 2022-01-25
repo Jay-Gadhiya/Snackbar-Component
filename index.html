@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="snackbar-container">
+        <button id="snack-baseline">Baseline</button>
+        <button id="snack-leading">Leading</button>
+        <button id="snack-stacked">Stacked</button>
+    </div>
+
+    <div class="snackbar">
+        <section class="baseline .baseline-position">
+            <p>Can't send photo. Retry in 5 seconds.</p>
+            <a href="#">RETRY</a>
+            <span class="delete">X</span>
+        </section>
+
+        <section class="baseline leading">
+            <p>Your photo has been archived.</p>
+            <a href="#">UNDO</a>
+            <span class="delete-leading">X</span>
+        </section>
+
+        <section class="stack-snack">
+            <p>This item already has the label "travel". You can add a new label.</p>
+            <div class="stack-footer">
+                <a href="#">ADD A NEW LABEL</a>
+                <span class="delete-stack">X</span>
+            </div>
+        </section>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>

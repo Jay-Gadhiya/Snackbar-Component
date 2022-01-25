@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.baseline {
+    background-color: rgb(59, 59, 59);
+    padding: 1rem;
+    width: 25.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #eee;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%) scale(0);
+}
+
+
+a {
+    text-decoration: none;
+    color: rgb(183, 132, 230);
+    font-size: .96rem;
+}
+.js-base {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.js-base-delete {
+    transform: translate(-50%, -50%) scale(0);
+}
+
+.delete {
+    cursor: pointer;
+}
+
+/* leading */
+
+.leading {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    transform: translate(0, 0) scale(0);
+}
+
+.js-leading {
+    transform: translate(0, 0) scale(1);
+}
+
+.js-leading-delete {
+    transform: translate(0, 0) scale(0);
+}
+
+.delete-leading {
+    cursor: pointer;
+}
+
+
+/* stacked */
+
+.stack-snack {
+    background-color: rgb(59, 59, 59);
+    font-size: .9rem;
+    padding: 1rem;
+    width: 28rem;
+    display: flex;
+    flex-direction: column;
+    color: #eee;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%) scale(0);
+}
+
+.stack-footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+}
+
+.delete-stack {
+    padding-left: 1.5rem;
+    cursor: pointer;
+}
+
+.js-stack {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.js-stack-delete {
+    transform: translate(-50%, -50%) scale(0);
+}
